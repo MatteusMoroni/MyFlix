@@ -1,0 +1,104 @@
+:root {
+    --vermelho: #e50914;
+    --preto : #141414;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /**Todos os elementos não ultrapassarão os grids**/
+}
+
+
+body {
+    background: var(--preto);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*Filme principal*/ 
+
+.serie-principal {
+    font-size:16px;
+    background:  linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.70)100%), url('/img/b-99.jpg');
+
+    height: 40rem;
+    background-size: cover;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.descricao {
+   margin-bottom: 90px;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.titulo {
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15%;
+
+}
+
+.botao{
+    background-color: rgba(56, 54, 54, 0.705);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+
+}
+
+.botao:hover{
+    background-color: rgba(250, 250, 250, 0.74);
+    color: black
+
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 2rem;
+
+}
+
+.serie-principal .container {
+    width: 80%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 80%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 2px;
+
+}
+
+.titulo-2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
